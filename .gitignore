@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+htmlcov/
+
+# Local env/config
+.env
+.env.*
+
+# Project outputs
+outputs/
+runs/
+
+# Large local datasets
+data/acne04_yolo/
+data/acne04_coco/
+data/dermnet/
+
+# Model weights / artifacts if created elsewhere
+*.pt
+*.pth
+*.ckpt

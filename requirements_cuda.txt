@@ -1,0 +1,27 @@
+# ── Core deep learning ──
+# Install PyTorch with CUDA manually before running this file:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.0.0
+torchvision>=0.15.0
+ 
+# ── Object detection ──
+ultralytics>=8.0.0          # YOLOv5 / YOLOv8 via Ultralytics API
+pycocotools>=2.0.6          # COCO-format mAP evaluation
+ 
+# ── Image processing ──
+opencv-python>=4.7.0
+Pillow>=9.0.0
+ 
+# ── Data / numerics ──
+numpy>=1.24.0
+pandas>=1.5.0
+ 
+# ── ML evaluation ──
+scikit-learn>=1.2.0         # accuracy, F1, AUROC, confusion matrix
+ 
+# ── Visualization ──
+matplotlib>=3.7.0
+ 
+# ── Utilities ──
+tqdm>=4.65.0                # progress bars (used internally by ultralytics)
+PyYAML>=6.0                 # reading data.yaml for YOLO
